@@ -1,7 +1,7 @@
 %define module      Email-MIME-Attachment-Stripper
 %define name        perl-%{module}
-%define version     1.31.3
-%define up_version  1.313
+%define version     1.31.4
+%define up_version  1.314
 %define release     %mkrel 1
 
 Name:           %{name}
@@ -11,7 +11,7 @@ Summary:        Strip the attachments from a mail
 License:        GPL or Artistic
 Group:          Development/Perl
 URL:            http://search.cpan.org/dist/%{module}
-Source:         http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.bz2
+Source:         http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.gz
 Requires:       perl(Email::Simple::Creator)
 %if %{mdkversion} < 1010
 BuildRequires:  perl-devel
