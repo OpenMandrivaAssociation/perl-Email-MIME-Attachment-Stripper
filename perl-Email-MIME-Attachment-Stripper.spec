@@ -20,7 +20,6 @@ BuildRequires:  perl(Email::MIME)
 BuildRequires:  perl(Email::MIME::Modifier)
 BuildRequires:  perl(MIME::Types)
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Given a Email::MIME object, detach all attachments from the message. These are
