@@ -1,8 +1,8 @@
 %define module      Email-MIME-Attachment-Stripper
 %define name        perl-%{module}
-%define version     1.31.4
-%define up_version  1.314
-%define release     %mkrel 3
+%define version     1.31.5
+%define up_version  1.315
+%define release     %mkrel 1
 
 Name:           %{name}
 Version:        %{version}
@@ -13,9 +13,6 @@ Group:          Development/Perl
 URL:            http://search.cpan.org/dist/%{module}
 Source:         http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.gz
 Requires:       perl(Email::Simple::Creator)
-%if %{mdkversion} < 1010
-BuildRequires:  perl-devel
-%endif
 BuildRequires:  perl(Email::MIME)
 BuildRequires:  perl(Email::MIME::Modifier)
 BuildRequires:  perl(MIME::Types)
