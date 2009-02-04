@@ -1,7 +1,7 @@
 %define module      Email-MIME-Attachment-Stripper
 %define name        perl-%{module}
-%define version     1.31.5
-%define up_version  1.315
+%define up_version  1.316
+%define version     %perl_convert_version %{up_version}
 %define release     %mkrel 1
 
 Name:           %{name}
