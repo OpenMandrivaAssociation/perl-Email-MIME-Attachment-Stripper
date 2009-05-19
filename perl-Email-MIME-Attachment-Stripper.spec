@@ -13,6 +13,7 @@ Group:          Development/Perl
 URL:            http://search.cpan.org/dist/%{module}
 Source:         http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.gz
 Requires:       perl(Email::Simple::Creator)
+BuildRequires:  perl(Email::Address)
 BuildRequires:  perl(Email::MIME)
 BuildRequires:  perl(Email::MIME::Modifier)
 BuildRequires:  perl(MIME::Types)
