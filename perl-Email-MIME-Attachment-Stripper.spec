@@ -16,6 +16,7 @@ BuildRequires:	perl(Email::Address)
 BuildRequires:	perl(Email::MIME)
 BuildRequires:	perl(Email::MIME::Modifier)
 BuildRequires:	perl(MIME::Types)
+BuildRequires:  perl(Capture::Tiny)
 BuildArch:	noarch
 
 %description
