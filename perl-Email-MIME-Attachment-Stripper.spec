@@ -2,13 +2,13 @@
 %define up_version  1.316
 
 Name:		perl-%{module}
-Version:	%perl_convert_version %{up_version}
-Release:	2
+Version:	%perl_convert_version 1.317
+Release:	1
 Summary:	Strip the attachments from a mail
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
-Source:		http://www.cpan.org/modules/by-module/Email/%{module}-%{up_version}.tar.gz
+Source:		http://www.cpan.org/modules/by-module/Email/Email-MIME-Attachment-Stripper-1.317.tar.gz
 Requires:	perl(Email::Simple::Creator)
 
 BuildRequires:	perl-devel
@@ -70,4 +70,5 @@ make test
 
 * Sun Jan 21 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.31.3-1mdv2007.1
 - first mdv release
+
 
