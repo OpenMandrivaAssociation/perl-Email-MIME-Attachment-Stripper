@@ -3,7 +3,7 @@
 
 Name:		perl-%{module}
 Version:	%perl_convert_version 1.317
-Release:	2
+Release:	3
 Summary:	Strip the attachments from a mail
 License:	GPL or Artistic
 Group:		Development/Perl
